@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 6eded9b56bc23db43acf7d40c0eacbf3
+guid: 69149ee8c6728c2499011a4844e09faa
 ModelImporter:
   serializedVersion: 21202
   internalIDToNameTable:
@@ -14,12 +14,12 @@ ModelImporter:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: M_Chest_Reinforcment
-    second: {fileID: 2100000, guid: 9d01019e83d56b94785297062f3ec778, type: 2}
+    second: {fileID: 2100000, guid: 4a98eafe41c6f4e45b11fff102d5e8e0, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: M_Chest_Wood
-    second: {fileID: 2100000, guid: 10ffbba934a887a438e389060594a124, type: 2}
+    second: {fileID: 2100000, guid: 2f8b303dc58c31d448ea0ebe7da68030, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
