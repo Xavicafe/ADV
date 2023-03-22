@@ -10,6 +10,7 @@ TagManager:
   - GREEN
   - GAMECONTROL
   - PELOTAS
+  - LOSETAG
   layers:
   - Default
   - TransparentFX

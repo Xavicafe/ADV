@@ -43,20 +43,13 @@ public class GameController : MonoBehaviour
         
     }
 
-    // Update is called once per frame
-   
     void Update(){
         pelotas= GameObject.FindGameObjectsWithTag("PELOTAS");
-
-        if(pelotas.Length==0){
-            Lose_label.text="YOU LOSE";
-            Instantiate(sonido_lose);
-        }
-        
     }
 
     public void sonido(){
-        Debug.Log(pelotas.Length);
+        
+
         bool bien_mal=false;
         for(int i=0; i<pelotas.Length;i++){
             Debug.Log("COL.TAG:"+pelotas[i].GetComponent<Pelota>().col.tag);
@@ -98,6 +91,16 @@ public class GameController : MonoBehaviour
         if(random=="BLUE"){
             Info_label.color=Color.blue;
         }
+    }
+
+    public void lose(){
+        Debug.Log(pelotas.Length);
+        if(pelotas.Length==1){
+                
+                Instantiate(sonido_lose);
+                Lose_label.text="YOU LOSE";
+        }
+        
     }
 
     

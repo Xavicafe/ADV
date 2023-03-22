@@ -256,7 +256,7 @@ MonoBehaviour:
   mater: {fileID: 2100000, guid: 23efeb8c4b13c2e45919c5a500389255, type: 2}
   materi: {fileID: 2100000, guid: 8f539f589396b83429d96df08cdb7820, type: 2}
   gm: {fileID: 2146887862}
-  pelotas: {fileID: 348482167229927730, guid: 94a9e5aa02c72a0459114d5be8852d27, type: 3}
+  pelota: {fileID: 348482167229927730, guid: 94a9e5aa02c72a0459114d5be8852d27, type: 3}
   sonido_mal: {fileID: 8803665945850380451, guid: aa5841401337fbc4ba18a802d0acf7d5,
     type: 3}
   col: {fileID: 0}
@@ -1064,7 +1064,7 @@ GameObject:
   - component: {fileID: 1098703876}
   m_Layer: 5
   m_Name: LOSE
-  m_TagString: Untagged
+  m_TagString: LOSETAG
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1348,7 +1348,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: b69b51891fc92444dad9bd999b5872ad, type: 3}
+  m_audioClip: {fileID: 8300000, guid: a8f69bef23257a7498094288b95f85bb, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1

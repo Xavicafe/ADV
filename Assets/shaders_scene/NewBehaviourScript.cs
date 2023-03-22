@@ -10,16 +10,16 @@ public class NewBehaviourScript : MonoBehaviour
     public float vel = 10f;
 
     void Update(){
-        if (Input.GetKeyDown(KeyCode.D) || Input.GetKeyDown(KeyCode.LeftArrow))
+        if (Input.GetKeyDown(KeyCode.A) || Input.GetKeyDown(KeyCode.LeftArrow))
         {
             var rot = transform.rotation;
-            rot.x -= Time.deltaTime * vel;
+            rot.x += Time.deltaTime * vel;
             transform.rotation = rot;
             
         }
-        else if(Input.GetKeyDown(KeyCode.A) || Input.GetKeyDown(KeyCode.RightArrow)){
+        else if(Input.GetKeyDown(KeyCode.D) || Input.GetKeyDown(KeyCode.RightArrow)){
             var rot = transform.rotation;
-            rot.x += Time.deltaTime * vel;
+            rot.x -= Time.deltaTime * vel;
             transform.rotation = rot;
         }
     }

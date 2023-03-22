@@ -14,17 +14,23 @@ public class Pelota : MonoBehaviour
     private Renderer rend;
 
     public GameController gm;
-    public GameObject pelotas;
+    public GameObject pelota;
     public GameObject sonido_mal;
+    
+    
     
     private Rigidbody rb;
     public Collider col;
     private string random;
+
+    
+    private GameObject[] pelotas;
     // Start is called before the first frame update
     void Start()
     {
         
         gm = GameObject.FindWithTag("GAMECONTROL").GetComponent<GameController>();
+        
 
         rend =GetComponent<Renderer>();
         
@@ -63,7 +69,7 @@ public class Pelota : MonoBehaviour
                 gm.AddScore(1);
                 gm.sonido();
                 
-                GameObject game = Instantiate(pelotas);
+                GameObject game = Instantiate(pelota);
                 game.transform.position= new Vector3(0,5f,0);
                 gm.ChangeTag();
                 
@@ -74,8 +80,10 @@ public class Pelota : MonoBehaviour
             }
         }
         if(gameObject.transform.position.y<=-10){
+            gm.lose();
             Destroy(gameObject);
             Instantiate(sonido_mal);
+
             
         }
     }
