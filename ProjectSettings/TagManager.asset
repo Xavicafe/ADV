@@ -8,6 +8,8 @@ TagManager:
   - BLUE
   - YELLOW
   - GREEN
+  - GAMECONTROL
+  - PELOTAS
   layers:
   - Default
   - TransparentFX
