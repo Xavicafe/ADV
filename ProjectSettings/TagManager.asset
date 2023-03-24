@@ -11,6 +11,7 @@ TagManager:
   - GAMECONTROL
   - PELOTAS
   - LOSETAG
+  - PLAYER
   layers:
   - Default
   - TransparentFX
