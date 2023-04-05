@@ -70,7 +70,7 @@ public class Pelota : MonoBehaviour
                 gm.sonido();
                 
                 GameObject game = Instantiate(pelota);
-                game.transform.position= new Vector3(0,5f,0);
+                game.transform.position= new Vector3(1f,5f,-3f);
                 gm.ChangeTag();
                 
             }

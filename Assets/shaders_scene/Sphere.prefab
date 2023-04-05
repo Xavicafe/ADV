@@ -30,7 +30,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 348482167229927730}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 1.41, y: 5, z: 1.59}
+  m_LocalPosition: {x: 1.41, y: 5, z: -3}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -94,7 +94,7 @@ SphereCollider:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 348482167229927730}
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 13400000, guid: e48c15a395b88864d9379b3aeab0e2c3, type: 2}
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
@@ -136,9 +136,6 @@ MonoBehaviour:
   pelota: {fileID: 348482167229927730}
   sonido_mal: {fileID: 8803665945850380451, guid: aa5841401337fbc4ba18a802d0acf7d5,
     type: 3}
-  sonido_lose: {fileID: 985210007175228201, guid: a83b6f9c313fc5748a4160ce5288cb9c,
-    type: 3}
-  Lose_label: {fileID: 0}
   col: {fileID: 0}
 --- !u!96 &348482167229927737
 TrailRenderer:
